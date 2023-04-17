@@ -171,6 +171,10 @@
   text-decoration: none;
 }
 
+.events__more:hover {
+  color: #1f69c9;
+}
+
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -267,7 +271,7 @@
   margin: 0;
 }
 
-.staff__card {
+.staff__cards {
   max-width: 760px;
   gap: 40px;
   display: flex;
