@@ -427,7 +427,7 @@
   margin-left: auto;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   margin-left: 100px;
 }
 
@@ -446,10 +446,12 @@
 .footer__list-item {
   margin-bottom: 16px;
 }
+
 .footer__list-item:last-of-type {
   margin-bottom: 0;
 }
-.footer__heading {
+
+.footer__column-heading {
   margin: 0 0 20px;
 }
 .footer__column-link {
