@@ -86,12 +86,8 @@
 }
 
 .header__link:hover {
-  color: #c1c1c1;
-  text-decoration: none;
-}
-
-.header_link:hover {
   color: #1f69c9;
+  text-decoration: none;
 }
 
 .header__address {
