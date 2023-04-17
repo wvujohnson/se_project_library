@@ -86,7 +86,7 @@
 }
 
 .header__link:hover {
-  color: #2f80ed;
+  color: #c1c1c1;
   text-decoration: none;
 }
 
@@ -423,7 +423,7 @@
   display: flex;
 }
 
-.footer__column_hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
