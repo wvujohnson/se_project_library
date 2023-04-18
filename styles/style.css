@@ -34,8 +34,7 @@
   align-items: flex-start;
   column-gap: 20px;
   list-style: none;
-  font-size: 8px;
-  margin: 0 0 0;
+  margin: 8px 0 0;
 }
 
 .nav__link:hover {
@@ -62,7 +61,7 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .header__image {
@@ -85,9 +84,13 @@
   box-sizing: border-box;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header__link:hover {
   color: #1f69c9;
-  text-decoration: none;
 }
 
 .header__address {
@@ -101,11 +104,9 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
-.event:hover {
-  color: #1f69c9;
-}
 .events__content {
   flex-basis: 580px;
 }
@@ -192,7 +193,6 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
@@ -244,7 +244,7 @@
 }
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -273,7 +273,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 68px;
+  margin: 68px 0 0;
   padding-left: 0;
   margin-inline: auto;
 }
@@ -390,9 +390,8 @@
   max-width: 660px;
 }
 
-.about__paragraph {
-  margin: 0 0 32px;
-  gap: 32px;
+.about__paragraph:last-of-type {
+  margin: 0;
 }
 
 .about__circle {
@@ -449,6 +448,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
